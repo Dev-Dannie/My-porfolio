@@ -1,20 +1,22 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiOutlineBars } from 'react-icons/ai';
 import Bars from '../../asset/bars.png'
 
 import { Container, Div1, Div2, Div3, Span, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () =>  (
+const Header = () => {
+
+ return (
   <Container>
     <Div1>
       <Link href='/'>
-          <Span>DammylareDaniel</Span> 
+          <Span>DevDannie</Span> 
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects'>
+        <Link href='#projects' smooth={true}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
@@ -30,18 +32,17 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://twitter.com'>
+      <SocialIcons href='https://twitter.com/DevDannie'>
         <AiFillTwitterCircle size='3rem'/>
       </SocialIcons>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons href='https://github.com/DevDannie'>
         <AiFillGithub size='3rem'/>
       </SocialIcons>
       <SocialIcons href='https://linkedin.com'>
         <AiFillLinkedin size='3rem'/>
-      </SocialIcons>
-      <AiOutlineBars size='3rem'/>
+      </SocialIcons> 
     </Div3>
   </Container>
 );
-
+}
 export default Header;

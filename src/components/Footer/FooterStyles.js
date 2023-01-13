@@ -15,10 +15,11 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 16px;
+	font-size: 1.2rem;
 	line-height: 30px;
-	color: tomato;
+	color: lightblue;
 	margin-bottom: 16px;
+	margin-left: 5px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;

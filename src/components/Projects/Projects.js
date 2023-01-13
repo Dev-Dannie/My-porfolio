@@ -31,7 +31,7 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}><AiFillGithub size='3rem'/></ExternalLinks>
-              <ExternalLinks href={source}>Live</ExternalLinks>
+              <ExternalLinks href={source}>Live Site</ExternalLinks>
             </UtilityList>
           </BlogCard>
         ))}

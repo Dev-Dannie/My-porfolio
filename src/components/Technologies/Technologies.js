@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section>
+  <Section id='tech'>
     <SectionDivider />
     <br />
     <SectionTitle>Some Technologies I've Used</SectionTitle>
@@ -47,7 +47,7 @@ const Technologies = () =>  (
       
       <ListItem>
         <ListContainer>
-          <DiGithub size='3rem' fill='skyblue'/>
+          <DiReact size='3rem' fill='skyblue'/>
           <ListTitle>Redux</ListTitle>
         </ListContainer>
       </ListItem>
@@ -67,12 +67,6 @@ const Technologies = () =>  (
         <ListContainer>
           <DiGithub size='3rem' fill='skyblue'/>
           <ListTitle>GitHub</ListTitle>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <ListContainer>
-          <DiGithub size='3rem' fill='skyblue'/>
-          <ListTitle>StyledComponents</ListTitle>
         </ListContainer>
       </ListItem>
     </List>

@@ -29,6 +29,7 @@ export const Div1 = styled.div`
 
 export const Span = styled.span`
  font-size: 2rem;
+ color: white;
 `;
 
 export const Div2 = styled.div`
@@ -37,10 +38,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
-    display: block;
-    position: fixed;
-    top: 6rem;
-    right: 5px;
+    
   }
 `;
 export const Div3 = styled.div`
@@ -68,6 +66,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 1.3rem;
   }
 `;
 

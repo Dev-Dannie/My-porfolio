@@ -9,10 +9,10 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => (
  <Section>
     <SectionTitle>Let's Deal!</SectionTitle>
-    <h3>Shoot me an email at 
-      <span style={{padding: '4'}}><LinkItem href='mailto:damilaredaniel152@gmail.com'>
-        damilaredaniel152@gmail.com</LinkItem></span> 
-    </h3>
+    <span style={{color:'white', gap: '1rem'}}><h3 style={{fontSize: '1.5rem'}}>Shoot me a mail at 
+      <LinkItem href='mailto:damilaredaniel152@gmail.com'>
+        damilaredaniel150@gmail.com</LinkItem>
+    </h3></span> 
  </Section>
 )
  
