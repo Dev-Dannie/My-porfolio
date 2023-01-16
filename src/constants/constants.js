@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'NASA',
+    description: "The NASA webpage is a site for exploring the latest images and videos that helps you learn abot excting space missions and launches, and also to follow along with landings",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['Nasa Api', 'Tailwind Css', 'React', 'Figma'],
+    source: 'nasa-webpage.vercel.app',
+    visit: 'github.com/Dev-Dannie',
     id: 0,
   },
   {
