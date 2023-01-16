@@ -35,7 +35,7 @@ const Header = () => {
       <SocialIcons href='https://twitter.com/DevDannie'>
         <AiFillTwitterCircle size='3rem'/>
       </SocialIcons>
-      <SocialIcons href='https://github.com/DevDannie'>
+      <SocialIcons href='https://github.com/Dev-Dannie'>
         <AiFillGithub size='3rem'/>
       </SocialIcons>
       <SocialIcons href='https://linkedin.com'>
