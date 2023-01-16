@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['Nasa Api', 'Tailwind Css', 'React', 'Figma'],
     source: 'https://nasa-webpage.vercel.app',
-    visit: 'https://github.com/Dev-Dannie',
+    visit: 'https://github.com/Dev-Dannie/Nasa-webpage',
     id: 0,
   },
   {
