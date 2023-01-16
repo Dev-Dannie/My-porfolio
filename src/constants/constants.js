@@ -4,8 +4,8 @@ export const projects = [
     description: "The NASA webpage is a site for exploring the latest images and videos that helps you learn abot excting space missions and launches, and also to follow along with landings",
       image: '/images/1.png',
       tags: ['Nasa Api', 'Tailwind Css', 'React', 'Figma'],
-    source: 'nasa-webpage.vercel.app',
-    visit: 'github.com/Dev-Dannie',
+    source: 'https://nasa-webpage.vercel.app',
+    visit: 'https://github.com/Dev-Dannie',
     id: 0,
   },
   {
