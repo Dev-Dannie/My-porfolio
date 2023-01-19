@@ -38,9 +38,9 @@ const Header = () => {
       <SocialIcons href='https://github.com/Dev-Dannie'>
         <AiFillGithub size='3rem'/>
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
+      {/* <SocialIcons href='https://linkedin.com'>
         <AiFillLinkedin size='3rem'/>
-      </SocialIcons> 
+      </SocialIcons>  */}
     </Div3>
   </Container>
 );
