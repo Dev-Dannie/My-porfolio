@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Coin Track',
     description: "An application that tracks prices of cryptocurrencies, exchanges and cryptocurrency news. it utilizes context api rapid api and react styled components.",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['React', 'Styled Components'],
     source: 'https://crypto-tracker-six-zeta.vercel.app',
     visit: 'https://github.com/Dev-Dannie/Crypto-tracker',
